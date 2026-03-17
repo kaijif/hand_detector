@@ -1,7 +1,7 @@
 # hand_detector — BlazePalm server
 
-Reads a USB webcam, runs PalmDetector.predict_on_batch() (includes full
-decode + weighted NMS from blazepalm.py), and emits a socket event only
+Reads a USB webcam, runs `PalmDetector.predict_on_batch()` (includes full
+decode + weighted NMS from `blazepalm.py`), and emits a socket event only
 when hand presence changes.
 
 ## Socket protocol (server — clients connect):
